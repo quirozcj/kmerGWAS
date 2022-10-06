@@ -50,7 +50,7 @@ Example ```kmers.cfg```
 	sample_name2	path/to/sample_name2.jf
 	```
 
-4. For each of the samples creata an invividual presence/absence matrix.
+4. For each of the samples create an invividual presence/absence matrix.
 	- script: ```run_create_matrix.sh```
 
 This script will output ```presenceMatrix_sample_name1.txt``` file for each of the samples
