@@ -1,6 +1,7 @@
 # Aim: run kGWAS from the start
 
-## The publication for the scripts was published in Gaurav et al., 2020. https://www.nature.com/articles/s41587-021-01058-4
+## The publication for the scripts was published in Gaurav et al., 2020.
+https://www.nature.com/articles/s41587-021-01058-4
 ## The original repository is in:
 https://github.com/wheatgenetics/owwc/tree/master/kGWAS
 
