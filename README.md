@@ -1,5 +1,6 @@
 # Aim: run kGWAS from the start
 
+## The publication for the scripts was published in Gaurav et al., 2020. https://www.nature.com/articles/s41587-021-01058-4
 ## The original repository is in https://github.com/wheatgenetics/owwc/tree/master/kGWAS
 
 ## A) build a k-mer matrix:
@@ -119,7 +120,7 @@ singularity exec ~/tmp/quirozc/python3.img python3 ../scripts/random_kmers.py \
 -o kmers_100k.tsv
 ```
 
-The output will be the ```kmers_100k.tsv``` which will be used to compute the PCA and account for population structure whe runing kmerGWAS downstream analysis.
+The output will be the ```kmers_100k.tsv``` which will be used to compute the PCA and account for population structure when runing kGWAS downstream analysis.
 
 ## B) Prepare genome reference:
 1. Using the genome reference in FASTA fromat run the script ref_splitter.py. This script will split the sequence in the reference in 10,000 bp sequence blocks, but will keep a single file.
