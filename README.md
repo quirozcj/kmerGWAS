@@ -100,7 +100,7 @@ rm presenceMatrix_samples_merged.txt
 split -n l/5 presenceMatrix_all_samples_merged_sorted -d all_samples_mat_ && gzip all_samples_mat_*
 ```
 
-7. Create a header file with the name of the samplesin a single column in the same order as in the configuration file created in step 3 column 1.
+7. Create a header file with the name of the samples in a single column in the same order as in the configuration file created in step 3 column 1.
 
 	Example ```accessions.txt```
 	```
