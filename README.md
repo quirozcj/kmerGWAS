@@ -248,7 +248,7 @@ Example of the ouput file results (it does not have colum names):
 - column2: start
 - column3: end
 - column4: association
-- column5: correlation of having a k-mer with and a phenotype
+- column5: correlation of having a k-mer with a phenotype
 - column6: number of k-mer in the window (start-end) with the same association and the same correlation.
 
 ```
