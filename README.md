@@ -1,7 +1,8 @@
 # Aim: run kGWAS from the start
 
-### Publication of the scritps in Gaurav et al., 2020 (https://www.nature.com/articles/s41587-021-01058-4)
+### Publication of the scritps in Gaurav et al., 2020 https://www.nature.com/articles/s41587-021-01058-4
 ### The original repository is in https://github.com/wheatgenetics/owwc/tree/master/kGWAS
+
 
 ## A) build a k-mer matrix:
 1. Create k-mers from each of the samples directly from raw reads. We used 51-mers.
