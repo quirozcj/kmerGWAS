@@ -210,7 +210,7 @@ Example using an array:
 ```sh
 i=$SLURM_ARRAY_TASK_ID
 
-reference=tef
+reference=reference_name
 base_dir=/base/path/
 mtx_dir=${base_dir}/matrix
 ref_dir=${base_dir}/genome_parts
