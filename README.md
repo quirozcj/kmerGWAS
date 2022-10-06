@@ -276,12 +276,12 @@ singularity exec ~/tmp/quirozc/python3.img python3 ${script_dir}/merge_output.py
 $gwas_dir $gwas_dir/${reference}_${phenotype}_mc${mc}_filtered.txt
 
 ```
-2. Using the merged file, and the ```chromosome_lengths_s.txt``` file created in step 2 of B.
+2. Using the merged file, and the ```chromosome_lengths.txt``` file created in step 2 of B.
 
 ```sh
 singularity exec ~/tmp/quirozc/python3.img python3 ${script_dir}/gwas_plot.py \
 $gwas_dir/${reference}_${phenotype}_mc${mc}_filtered.txt \
-$ref_dir/chromosome_lengths_s.txt \
+$ref_dir/chromosome_lengths.txt \
 $gwas_dir/${phenotype}_${reference}_mc${mc}_filtered.jpg
 ```
 
