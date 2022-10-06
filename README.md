@@ -85,6 +85,7 @@ mtx_dir='/path/out'
 cat $in_dir/presenceMatrix_sample_* > ${mtx_dir}/presenceMatrix_all_samples_merged.txt
 
 cd ${mtx_dir}
+
 sort \
 -k 1 presenceMatrix_all_samples_merged.txt \
 -T ${mtx_dir} \
