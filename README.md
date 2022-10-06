@@ -242,14 +242,14 @@ singularity exec ~/tmp/quirozc/python3.img python3 ${base_dir}/scripts/RunAssoci
 -mc ${mc}
 ```
 
-Example of the ouput file results:
+Example of the ouput file results (it does not have colum names):
 
-Column1: chromosome
-Column2: start
-Column3: end
-Column4: association
-Column5: correlation of having a k-mer with and a phenotype
-Column6: number of k-mer in the window (start-end) with the same association and the same correlation.
+- column1: chromosome
+- column2: start
+- column3: end
+- column4: association
+- column5: correlation of having a k-mer with and a phenotype
+- column6: number of k-mer in the window (start-end) with the same association and the same correlation.
 
 ```
 chr1A	1620000	1630000	6.25	0.32	1
