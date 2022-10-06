@@ -124,7 +124,7 @@ singularity exec ~/tmp/quirozc/python3.img python3 ../scripts/random_kmers.py \
 The output will be the ```kmers_100k.tsv``` which will be used to compute the PCA and account for population structure when runing kGWAS downstream analysis.
 
 ## B) Prepare genome reference:
-1. Using the genome reference in FASTA fromat run the script ref_splitter.py. This script will split the sequence in the reference in 10,000 bp sequence blocks, but will keep a single file.
+1. Using the genome reference in FASTA fromat run the script ```ref_splitter.py```. This script will split the sequence in the reference in 10,000 bp sequence blocks, but will keep a single file.
 
 	- script ```split_reference.sh```
 
