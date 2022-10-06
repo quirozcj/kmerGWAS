@@ -1,4 +1,6 @@
-# Aim: run kmerGWAS
+# Aim: run kGWAS from the start
+
+## The original repository is in https://github.com/wheatgenetics/owwc/tree/master/kGWAS
 
 ## A) build a k-mer matrix:
 1. Create k-mers from each of the samples directly from raw reads. We used 51-mers.
