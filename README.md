@@ -16,7 +16,7 @@ in_dir=/path/to/raw_reads/${sample_id}
 out_dir=/path/out/kmers/${sample_id}
 mkdir -p $out_dir
 
-# (zcat $in_dir/*.gz) will assume single raw read per folder
+# (zcat $in_dir/*.gz) will assume raw reads per sample per folder
 jellyfish count <(zcat $in_dir/*.gz) \
 -t 32 \
 -C \
@@ -25,7 +25,7 @@ jellyfish count <(zcat $in_dir/*.gz) \
 -o $out_dir/${sample_id}.jf
 ```
 
-2. Create dump.txt files for each of the samples k-mers created in step 1. Step 1 and two are combined in the same script ```run_jellyfish.sh```
+2. Create dump.txt files for each of the samples k-mers created in step 1. Step 1 and two are combined in the same script.
 	- script ```run_jellyfish.sh```
 
 Example:
