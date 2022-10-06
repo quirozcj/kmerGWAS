@@ -260,7 +260,7 @@ chr1B	7330000	7340000	6.34	0.33	2
 ```
 
 ## E) plot results:
-1. If kmerGWAS was run in parts, merge the individual results with the "merge_output.py" script.
+1. If kmerGWAS was run in parts, merge the individual results with the ```merge_output.py``` script.
 ```sh
 reference=reference_name
 phenotype=my_phenotype
