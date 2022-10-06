@@ -185,7 +185,7 @@ sample_name4	29.89
 sample_namen	35.11
 
 ```
-2. Create a "Usable file". This will have a simgle column with the name of the samples to use in the GWAS analysis. The names must match the names in the phenotype file and the header file. This file can have fewer samples than phenotype file but it cannot have more (this is a filter file).
+2. Create a "Usable file". This will have a simgle column with the name of the samples to use in the kGWAS analysis. The names must match the names in the phenotype file and the header file. This file can have fewer samples than the phenotype file but it cannot have more (this is a filter file).
 
 Example ```usable.txt```
 
@@ -195,13 +195,13 @@ sample_name2
 sample_name4
 ```
 
-## D) run kmerGWAS:
+## D) run kGWAS:
 1. Put all the scripts in a single folder and run the "RunAssociation_GLM.py" script. This will use each of the other scrip in the folder.
 	- KmerProjection_GLM.py
 	- Phenotype_GLM.py
 	- RunAssociation_GLM.py
 
-2. If you have the k-mer matrix split in parts, run this script foe each of the parts in parallel.
+2. If you have the k-mer matrix split in parts, run this script for each of the parts in parallel.
 
 - script ```01_run_kmerGWAS.sh```
 
