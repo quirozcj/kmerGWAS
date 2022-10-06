@@ -232,12 +232,12 @@ out_dir=${base_dir}/01_results/${phenotype}
 mkdir -p $out_dir
 
 singularity exec ~/tmp/quirozc/python3.img python3 ${base_dir}/scripts/RunAssociation_GLM.py \
--i ${base_dir}/matirx/${mtx}.gz \
--hd ${base_dir}/matirx/accessions.txt \
+-i ${base_dir}/matrix/${mtx}.gz \
+-hd ${base_dir}/matrix/accessions.txt \
 -a $ref_dir/${reference}.fa \
 -p ${base_dir}/phenotypes/${phenotype}.txt \
--u ${base_dir}/matirx/usable.txt \
--s ${base_dir}/matirx/kmers_100k.tsv \
+-u ${base_dir}/matrix/usable.txt \
+-s ${base_dir}/matrix/kmers_100k.tsv \
 -o $out_dir/${reference}_${phenotype}_${mtx}_mc${mc}.txt \
 -mc ${mc}
 ```
